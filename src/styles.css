@@ -1,0 +1,93 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card-component {
+  max-width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-input-container {
+  width: 490px;
+  height: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  position: relative;
+  text-align: left;
+}
+
+.card-input-label {
+  display: block;
+  margin-bottom: 10px;
+  color: #4F4F4F;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+}
+
+.card-input {
+  position: absolute;
+  width: 447px;
+  height: 52px;
+  left: 0px;
+  padding-top: 2px;
+  padding-left: 15px;
+  background: #FFFFFF;
+  border: 1px solid #D1D1D1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+}
+
+.card-input-icon {
+  position: absolute;
+  right: 58px;
+  top: 15px;
+  width: 35px;
+  background: #F2AE14;
+}
+
+.card-input-checkmark {
+  position: absolute;
+  right: 0px;
+  top: 17px;
+  width: 23px;
+}
+
+.card-input-exmark {
+  position: absolute;
+  right: 0px;
+  top: 17px;
+  width: 20px;
+}
+
+.card-input-error {
+  width: 484px;
+  height: 40px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border: 1px solid #EB5757;
+  border-radius: 4px;
+  padding: 10px 13px;
+  text-align: left;
+  color: #EB5757;
+  margin-top: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+.required {
+  color: #F2994A;
+}
